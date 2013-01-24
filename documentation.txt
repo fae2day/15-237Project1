@@ -21,7 +21,39 @@ data.js:
 	sqx
 	sqw
 	sqh
-	
+
+	numItems
+	item[]
+		item[i].ID
+		item[i].name
+		item[i].description1
+		item[i].description2
+		item[i].img
+			item[i].img.src
+		item[i].world
+		item[i].x
+		item[i].y
+		
+	numFree
+	numHint
+	numNPCs
+	NPC[]
+		NPC[i].ID
+		NPC[i].name
+		NPC[i].img
+			NPC[i].img.src
+		NPC[i].bookLevel
+		NPC[i].strLevel
+		NPC[i].freeDialogue[]
+		NPC[i].freeIndex
+		NPC[i].hintDialogue[]
+		NPC[i].hintIndex
+		NPC[i].itemID
+		NPC[i].world
+		NPC[i].x
+		NPC[i].y
+		
+		
 	player
 		player.x
 		player.y
@@ -34,7 +66,7 @@ data.js:
 	moveRight
 	
 	numWorlds
-	worldMap
+	worldMap[]
 		worldMap[i].ID
 		worldMap[i].img
 			worldMap[i].img.src
