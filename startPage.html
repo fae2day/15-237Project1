@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<!-- html Document bitches
+test for start page, Instructions/Credit buttons work
+I comment retardedly.
+JSFiddle is magical-->
+
+<html>
+	<!-- !!!IMPORTANT!!! Switch to multiple canvases. (Sorry Angera ): ) -->
+	<canvas id = "c" height="600" width="600" style="border:1px solid #000000;"> 
+	</canvas>
+	
+	<!-- VARIABLE DECLARATIONS -->
+	<!-- Any canvas-related variables (AKA variables that should be global) -->
+	<!-- are recorded here for clarity. -->
+	
+	<script> 
+		var canvas = document.getElementById("c");
+		var ctx= canvas.getContext("2d");
+		
+		var canvasHeight = 600;
+		var canvasWidth = 600;
+		var canvasCenter=canvasWidth/2;
+		var gameHeight=450; // will prob need ~_~
+		var gameWidth=450; // seeing as the game is inside the canvas 
+		
+		// Will also need dimensions and coordinates for the sidebar boxes and 
+		// dialogue box.
+		
+	</script>
+	
+	<!-- JAVASCRIPT FILES -->
+	<!-- These files contain the majority of the code. See comments -->
+	<!-- in the actual files for more details. -->
+	
+	<script src = "data.js"> </script> <!-- Coded by Sarah & Angela -->
+	<script src = "menu.js"> </script> <!-- Coded by Angela -->
+	<script src = "items.js"> </script> <!-- NOT YET IMPLEMENTED -->
+	<script src = "NPCs.js"> </script> <!-- NOT YET IMPLEMENTED -->
+	<script src = "world.js"> </script> <!-- Coded by Sarah -->
+	<script src = "player.js"> </script> <!-- Coded by Sarah -->
+	<script src = "listener.js"> </script> <!-- Coded by Sarah -->
+	<script src = "game.js"> </script> <!-- Coded by Sarah -->
+	
+	<!-- GAME START! -->
+	<script>
+		window.onload = function(){
+			//hey things actually work, try and break it bitch. or not, pls don't actually try.
+			drawStartPage();
+			//drawInstructions();
+			//drawCredit();	
+		}
+	</script>
+	
+	<!-- OTHER COMMENTS -->
+	<!-- This shit is definitely over 1k lines oop i hope TAs dont have to read it	-->
+</html>

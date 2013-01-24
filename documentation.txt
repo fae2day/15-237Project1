@@ -1,0 +1,73 @@
+documentation.txt
+
+If you're curious whether a variable/function name has already been used,
+please consult these lists.
+
+--Variable List--
+startPage.html:
+	canvas
+	ctx
+	canvasHeight
+	canvasWidth
+	canvasCenter
+	gameHeight
+	gameWidth
+	
+data.js:
+	startPage
+	instPage
+	creditPage
+	gameMode
+	sqx
+	sqw
+	sqh
+	
+	player
+		player.x
+		player.y
+		player.dir
+		player.img
+			player.img.src
+	moveUp
+	moveDown
+	moveLeft
+	moveRight
+	
+	numWorlds
+	worldMap
+		worldMap[i].ID
+		worldMap[i].img
+			worldMap[i].img.src
+	state
+	current_world
+	
+	intervalID
+	timerDelay
+
+--Function List--
+menu.js
+	drawStartPage()
+	drawInstructions()
+	drawCredit()
+	
+items.js
+
+NPCs.js
+	
+world.js
+	teleportMenu()
+	goToWorld(label)
+
+player.js
+	drawPlayer()
+	
+listener.js
+	updateDown(keyCode, x)
+	updateUp(keyCode, x)
+	onKeyDown(evt)
+	onKeyUp(evt)
+	
+game.js
+	drawBG()
+	onTimer()
+	run()
