@@ -204,6 +204,8 @@ var state = 1;
 // current_world: denotes the world the player is in.
 var current_world = 0;
 
+var inventory = {x:500, y:200}//location of the inventory
+
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 // game.js Variables
 // ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
