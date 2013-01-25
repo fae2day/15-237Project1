@@ -185,7 +185,13 @@ for (var i = 0; i < numWorlds; i++)
 {
 	worldMap[i] = new Object();
 	worldMap[i].ID = i;
-	worldMap[i].img = new Image;
+	worldMap[i].img = new Image();
+	
+	// 6 x 9 grid of 50x50 pixel squares.
+	// Indexed worldMap[i].grid[row][col].
+	worldMap[i].grid = new Array(6);
+	for (var j = 0; j < worldMap[i].grid.length; j++)
+		worldMap[i].grid[j] = new Array(9);
 }
 
 worldMap[0].img.src = "Images/Worlds/sky.jpg";
